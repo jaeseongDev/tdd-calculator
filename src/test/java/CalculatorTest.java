@@ -24,4 +24,9 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         Assertions.assertEquals(calculator.minus(5, 3), 2);
     }
+
+    @Test
+    public void multiply() {
+        Assertions.assertEquals(calculator.multiply(5, 3), 15);
+    }
 }
